@@ -17,9 +17,9 @@ keyword_in_filename: Da in einem Logfileordner mehrere verschiedene Logfiles dri
   "log_files": [
     {
       "log_directory": "D:/Abacus/abac/log/interfaceserver",
-      "sender_email_address": "domeyer85@gmail.com",
-      "sender_email_password": "XXXXXXXXXX",
-      "receiver_email_addresses": ["applikationsentwicklung@eisenring-kuechenbau.ch", "dominic.meyer@me.com"],
+      "sender_email_address": "YourGooggleEmail@gmail.com",
+      "sender_email_password": "APPPassword",
+      "receiver_email_addresses": ["receiver@email.com", "receiver2@email.com"],
       "keyword_to_search": "Address already in use: connect",
       "keyword_in_filename": "aba-server-SRV83"
     }
