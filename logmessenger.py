@@ -103,7 +103,7 @@ def main():
                     else:
                         logging.info(f"Keine Zeichenkette '{keyword_to_search}' in der Log-Datei {newest_log_file} gefunden.")
                 else:
-                    logging.info(f"Keine Log-Dateien mit '{keyword_to_search}' im Namen im Verzeichnis gefunden.")
+                    logging.info(f"Keine Log-Dateien mit '{keyword_in_filename}' im Namen im Verzeichnis gefunden.")
         except json.JSONDecodeError as e:
             logging.error(f"Fehler beim Lesen der Konfigurationsdatei: {e}")
 
